@@ -53,3 +53,7 @@ li {
   font-size: 18px;
   font-weight: bold;
 }
+
+.aside-list {
+  list-style-type: none;
+}
