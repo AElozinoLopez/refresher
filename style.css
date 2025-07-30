@@ -5,6 +5,13 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h1 {
@@ -55,5 +62,5 @@ li {
 }
 
 .aside-list {
-  list-style-type: none;
+  list-style: none;
 }
