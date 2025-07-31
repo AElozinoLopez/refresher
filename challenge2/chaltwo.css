@@ -1,0 +1,59 @@
+body {
+  color: #444;
+  font-family: sans-serif;
+}
+
+article {
+  border: 2px solid #444;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+p strong {
+  font-size: 20px;
+}
+
+.delivery-fee {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #959595;
+}
+
+a:link {
+  color: #444;
+}
+
+a:visited {
+  color: #444;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  font-size: 18px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.product-list {
+  list-style-type: square;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #f7f7f7;
+  color: #444;
+}
