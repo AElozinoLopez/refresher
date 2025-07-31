@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: #444;
   font-family: sans-serif;
@@ -7,7 +12,7 @@ body {
 
 .main-header {
   background-color: #f7f7f7;
-  padding: 20px;
+  padding: 20px 40px;
 }
 
 aside {
@@ -49,6 +54,11 @@ p {
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 /* footer p {
