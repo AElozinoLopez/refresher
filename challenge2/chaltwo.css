@@ -2,7 +2,8 @@ body {
   color: #444;
   font-family: sans-serif;
   line-height: 1.4;
-}
+
+ 
 
 article {
   border: 2px solid #444;
@@ -57,4 +58,6 @@ button {
 button:hover {
   background-color: #f7f7f7;
   color: #444;
+  cursor: pointer;
+  border: none;
 }
