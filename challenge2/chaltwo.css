@@ -11,7 +11,7 @@ body {
 
 .container {
   width: 825px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 article {
@@ -81,13 +81,12 @@ button {
   background-color: #000;
   color: #fff;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 button:hover {
   background-color: #f7f7f7;
   color: #444;
   cursor: pointer;
-  border: 2px solid #000;
+  border-top: 4px solid #000;
 }
