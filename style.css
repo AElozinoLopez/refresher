@@ -1,8 +1,12 @@
+/*  css Global Reset */
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+/* Page Section */
 body {
   color: #444;
   font-family: sans-serif;
@@ -50,7 +54,6 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
-  box-sizing: border-box;
 }
 
 h1,
@@ -81,6 +84,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
