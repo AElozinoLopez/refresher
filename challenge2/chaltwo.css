@@ -101,6 +101,11 @@ a:active {
 .brown {
   background-color: brown;
 }
+
+.square:last-child {
+  margin-right: 0;
+}
+
 .product-info {
   margin-top: 20px;
   margin-bottom: 15px;
