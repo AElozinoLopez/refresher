@@ -66,6 +66,41 @@ a:active {
   font-size: 18px;
 }
 
+.colored-squares {
+  margin-top: 20px;
+}
+
+.square {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  /* border: 3px solid black; */
+  margin-right: 10px;
+}
+
+.black {
+  background-color: #000;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: rgb(233, 230, 35);
+}
+
+.green {
+  background-color: green;
+}
+
+.brown {
+  background-color: brown;
+}
 .product-info {
   margin-top: 20px;
   margin-bottom: 15px;
