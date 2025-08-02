@@ -256,3 +256,19 @@ footer {
   font-weight: normal;
   font-style: italic;
 }
+
+/* Applying Flex to the Aside */
+
+.row {
+  display: flex;
+  gap: 75px;
+}
+
+article {
+  flex: 1;
+}
+
+aside {
+  /* width: 300px; */
+  flex: 0 0 300px;
+}
