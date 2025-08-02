@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 
 .container {
   width: 825px;
+
   margin: 50px auto;
 }
 
@@ -128,17 +130,48 @@ ul {
   margin-bottom: 0;
 } */
 
+button:hover {
+  background-color: #f7f7f7;
+  color: #444;
+  cursor: pointer;
+  border-top: 4px solid #000;
+}
+
+.product-image {
+  width: 250px;
+  float: left;
+}
+
+.product-price {
+  width: 300px;
+  float: left;
+  padding: 15px 20px;
+}
+
+.price {
+  float: left;
+}
+
+.delivery-fee {
+  float: right;
+  margin-right: 15px;
+  padding-top: 5px;
+}
+
+.product-summary {
+  clear: both;
+}
+
+.product-description {
+  width: 250px;
+  float: right;
+}
+
 button {
   text-transform: uppercase;
   background-color: #000;
   color: #fff;
   width: 100%;
   padding: 10px;
-}
-
-button:hover {
-  background-color: #f7f7f7;
-  color: #444;
-  cursor: pointer;
-  border-top: 4px solid #000;
+  clear: both;
 }
