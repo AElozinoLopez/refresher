@@ -215,6 +215,10 @@ footer {
 } */
 
 /* FLEXBOX */
+
+/* Styling The Navigation */
 .main-header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
