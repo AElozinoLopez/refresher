@@ -223,6 +223,7 @@ footer {
   justify-content: space-between;
 }
 
+/* Styling the author box */
 .author-box {
   display: flex;
   align-items: center;
@@ -234,6 +235,15 @@ footer {
   margin-left: 15px;
 }
 
+/* Styling the Aside Element */
 .related-image {
   display: flex;
+  align-items: center;
+}
+
+.related-authors {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
 }
