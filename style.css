@@ -185,7 +185,7 @@ h2::after {
 }
 
 /* Applying Floats */
-
+/* 
 h1 {
   float: left;
 }
@@ -212,4 +212,4 @@ aside {
 
 footer {
   clear: both;
-}
+} */
