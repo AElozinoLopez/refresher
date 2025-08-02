@@ -233,3 +233,7 @@ footer {
   margin-bottom: 0;
   margin-left: 15px;
 }
+
+.related-image {
+  display: flex;
+}
