@@ -34,7 +34,7 @@ nav {
 nav a:link {
   display: inline-block;
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 nav a:link:last-child {
@@ -213,3 +213,8 @@ aside {
 footer {
   clear: both;
 } */
+
+/* FLEXBOX */
+.main-header {
+  display: flex;
+}
