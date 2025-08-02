@@ -241,6 +241,13 @@ footer {
   align-items: center;
 }
 
+.related-link {
+  font-size: 17px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
 .related-authors {
   margin-bottom: 0;
   font-size: 14px;
