@@ -47,13 +47,24 @@
         gap: 10px;
       }
 
-      .el--1 {
-        align-self: stretch;
+      .el {
+        /* flex-shrink: 1; */
+        /* flex-basis: 100px; */
+        flex: 0 1 200px;
       }
 
-      .el--3 {
-        order: -1;
+      .el--1 {
+        align-self: flex-start;
+        /* flex-grow: 0; */
       }
+
+      /* .el--3 {
+        order: -1;
+      } */
+
+      /* .el--3 {
+        flex-grow: 1;
+      } */
     </style>
   </head>
   <body>
@@ -63,9 +74,9 @@
       <div class="el el--3">CSS</div>
       <div class="el el--4">are</div>
       <div class="el el--5">amazing</div>
-      <div class="el el--6">languages</div>
-      <div class="el el--7">to</div>
-      <div class="el el--8">learn</div>
+      <!-- <div class="el el--6">languages</div> -->
+      <!-- <div class="el el--7">to</div> -->
+      <!-- <div class="el el--8">learn</div> -->
     </div>
   </body>
 </html>
