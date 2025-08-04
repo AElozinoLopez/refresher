@@ -130,8 +130,10 @@ ul {
   margin-bottom: 0;
 }
 
+/* Applying Float to article items */
+/*
 .product-image {
-  /* width: 250px; */
+  /* width: 250px;
 
   float: left;
   margin-right: 40px;
@@ -142,6 +144,9 @@ ul {
   float: left;
   padding: 15px 20px;
 }
+
+
+
 
 .price {
   float: left;
@@ -160,7 +165,8 @@ ul {
 .product-description {
   width: 243px;
   float: right;
-}
+}  
+*/
 
 button {
   text-transform: uppercase;
@@ -178,4 +184,10 @@ button:hover {
   color: #444;
   cursor: pointer;
   border-top: 4px solid #000;
+}
+
+/* Applying Flexbox */
+
+.product-content-container {
+  display: flex;
 }
