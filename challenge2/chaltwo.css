@@ -49,7 +49,7 @@ p strong {
   text-transform: uppercase;
   font-size: 13px;
   color: #959595;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 a:link {
@@ -190,4 +190,12 @@ button:hover {
 
 .product-content-container {
   display: flex;
+  gap: 20px;
+}
+
+.price-delivery {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
 }
