@@ -289,11 +289,6 @@ aside {
 .main-header {
   grid-column: 1 / -1;
 }
-article {
-}
-
-aside {
-}
 
 footer {
   grid-column: 1 / -1;
