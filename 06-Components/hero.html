@@ -18,6 +18,11 @@
         color: #444;
       }
 
+      .container {
+        width: 1200px;
+        margin: 0 auto;
+      }
+
       nav {
         font-size: 20px;
         font-weight: 700;
@@ -40,22 +45,31 @@
       .btn:visited {
         font-size: 20px;
         font-weight: 600;
-        background-color: #e47e22;
+        background-color: #e67e22;
         text-decoration: none;
         display: inline-block;
         padding: 12px 24px;
         border-radius: 9px;
       }
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 40px;
+      }
+
+      section {
+        padding: 96px 0;
+      }
     </style>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="container">
         <div>LOGO</div>
         <div>NAVIGATION</div>
       </nav>
 
-      <div>
+      <div class="container">
         <h1>A healthy meal delivered to your door every single day</h1>
         <p>
           The smart 365-days-per-year food subscription that will make you eat
@@ -66,7 +80,7 @@
     </header>
 
     <section>
-      <div>
+      <div class="container">
         <h2>Some random stuff</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
