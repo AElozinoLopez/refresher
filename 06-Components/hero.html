@@ -30,9 +30,12 @@
       }
 
       header {
-        background-color: teal;
+        /* background-color: teal; */
         height: 100vh;
         position: relative;
+
+        background-image: url(hero.jpg);
+        background-size: cover;
       }
 
       nav {
@@ -48,6 +51,10 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+      }
+
+      .header-container-inner {
+        width: 50%;
       }
 
       h1 {
@@ -90,12 +97,15 @@
       </nav>
 
       <div class="header-container">
-        <h1>A healthy meal delivered to your door every single day</h1>
-        <p>
-          The smart 365-days-per-year food subscription that will make you eat
-          healthy agian. Tailored to your personal taste and nutritional values.
-        </p>
-        <a href="#" class="btn">Start eating well</a>
+        <div class="header-container-inner">
+          <h1>A healthy meal delivered to your door every single day</h1>
+          <p>
+            The smart 365-days-per-year food subscription that will make you eat
+            healthy agian. Tailored to your personal taste and nutritional
+            values.
+          </p>
+          <a href="#" class="btn">Start eating well</a>
+        </div>
       </div>
     </header>
 
