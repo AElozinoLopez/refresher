@@ -32,6 +32,7 @@
       header {
         background-color: teal;
         height: 100vh;
+        position: relative;
       }
 
       nav {
@@ -39,6 +40,14 @@
         font-weight: 700;
         display: flex;
         justify-content: space-between;
+      }
+
+      .header-container {
+        width: 1200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
 
       h1 {
@@ -80,7 +89,7 @@
         <div>NAVIGATION</div>
       </nav>
 
-      <div class="container">
+      <div class="header-container">
         <h1>A healthy meal delivered to your door every single day</h1>
         <p>
           The smart 365-days-per-year food subscription that will make you eat
