@@ -185,6 +185,7 @@ button {
   background-color: #000;
   color: #fff;
   width: 100%;
+  margin-top: -8px;
   /* height: 400px; */
   padding: 15px;
   /* clear: both; */
@@ -194,6 +195,7 @@ button {
 button:hover {
   background-color: #f7f7f7;
   color: #444;
+  margin-top: -8px;
   cursor: pointer;
   border: 2px solid #444;
 }
